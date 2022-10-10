@@ -1,0 +1,45 @@
+.timer {
+  margin: 50px 0px;
+  font-size: 26px;
+}
+
+.timer > span:nth-child(1) {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.timer > span:nth-child(2) {
+  font-size: 40px;
+  padding-left: 4px;
+}
+
+.btn > button {
+  margin: 0px 4px;
+  background-color: rgb(214, 38, 70);
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn > button:nth-child(2) {
+  background-color: #fff;
+  outline: 2px solid rgb(214, 38, 70);
+  color: rgb(214, 38, 70);
+}
+
+.input {
+  margin: 50px 0px;
+}
+
+.input > input {
+  border: none;
+  border-bottom: 2px solid rgb(214, 38, 70);
+  font-size: 20px;
+  outline: none;
+  padding: 10px;
+}
